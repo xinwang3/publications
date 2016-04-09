@@ -1,4 +1,6 @@
 console.log('pubapp.js loaded');
+here
+test 
 
 (function(){ // wrapping everything within an annonymous function
     var h = '<h3 style="color:brown">Faculty Publications</h3>'

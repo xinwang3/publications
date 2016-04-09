@@ -4,7 +4,7 @@ console.log('pubapp.js loaded');
     var h = '<h3 style="color:brown">Faculty Publications</h3>'
     
     h += 'Last Name: <input id="lastname" size=4 value="70"> <br> '
-    h += '<button id="subButton" type="button" >submit</button> '
+    h += '<button id="subButton" type="button" >submit</button> ';
     
      
     
@@ -20,9 +20,7 @@ console.log('pubapp.js loaded');
          
         var x = lastname.value
          
-            alert( "Thank you, isn't " + x +" %  too dark!")
-        
-         
+            alert( "Thank you, isn't " + x +" %  too dark!");
     }
      
 })()

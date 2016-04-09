@@ -8,11 +8,13 @@ console.log('cocao.js loaded');
     
      
     
- 
+    if(typeof(sbmApps)=='function'){ // if sbmApps library was loaded
+        sbmApps.render(h)
+    }else{ // if fib.js is being called without any help
         var dv = document.createElement('div')
         dv.innerHTML = h
         document.body.appendChild(dv)
- 
+    }
     
     subButton.onclick=function(){
          
@@ -27,4 +29,3 @@ console.log('cocao.js loaded');
      
 })()
 Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help

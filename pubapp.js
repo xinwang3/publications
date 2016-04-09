@@ -16,12 +16,7 @@ console.log('pubapp.js loaded');
         document.body.appendChild(dv)
     }
     
-    subButton.onclick=function(){
-         
-        var x = lastname.value
-         
-            alert( "Thank you, isn't " + x +" %  too dark!");
-    }
+     
      
 })()
 Status API Training Shop Blog About
